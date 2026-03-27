@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Jacomassi Serviços",
+      "url": "https://jacomassi.ind.br",
+      "logo": "https://jacomassi.ind.br/images/imgi_807_logo-300x92.png",
+      "telephone": [
+        "+55 17 99631-7094",
+        "+55 17 99613-2302"
+      ],
+      "email": "jacomassi.ltda@hotmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rod. Percy Waldir Semeguini, 590",
+        "addressLocality": "Ouroeste",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": "Jacomassi Serviços",
+      "url": "https://jacomassi.ind.br"
+    }
+  ]
+}

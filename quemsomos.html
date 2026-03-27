@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/imgi_799_favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quem Somos - Jacomassi Serviços</title>
+    <meta name="description" content="Conheça a Jacomassi Serviços, empresa com mais de 15 anos em fabricação, montagem e manutenção industrial." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://jacomassi.ind.br/quemsomos.html" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Jacomassi Serviços" />
+    <meta property="og:title" content="Quem Somos - Jacomassi Serviços" />
+    <meta property="og:description" content="História, missão, propósito e valores da Jacomassi Serviços." />
+    <meta property="og:url" content="https://jacomassi.ind.br/quemsomos.html" />
+    <meta property="og:image" content="https://jacomassi.ind.br/images/imgi_807_logo-300x92.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Quem Somos - Jacomassi Serviços" />
+    <meta name="twitter:description" content="História, missão, propósito e valores da Jacomassi Serviços." />
+    <meta name="twitter:image" content="https://jacomassi.ind.br/images/imgi_807_logo-300x92.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/src/style.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "Quem Somos - Jacomassi Serviços",
+        "url": "https://jacomassi.ind.br/quemsomos.html",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jacomassi Serviços"
+        }
+      }
+    </script>
+    <style>
+      .page-hero {
+        background-color: var(--color-dark);
+        color: var(--color-white);
+        padding: 120px 0 60px;
+        text-align: center;
+      }
+      .page-hero h1 {
+        font-size: 48px;
+      }
+      .content-section {
+        padding: 80px 0;
+      }
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+      .content-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: var(--color-gray);
+      }
+      @media (max-width: 768px) {
+        .content-grid { grid-template-columns: 1fr; }
+      }
+      .about-hero {
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        padding: 110px 0;
+        position: relative;
+      }
+      .about-hero .hero-content {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .about-hero .hero-content h1 {
+        font-size: clamp(34px, 5vw, 46px);
+        margin-bottom: 16px;
+      }
+      .about-hero .hero-content p {
+        font-size: 20px;
+        max-width: 820px;
+        margin: 0 auto;
+      }
+      .about-wrapper {
+        display: grid;
+        grid-template-columns: minmax(360px, 1.25fr) minmax(360px, 1.75fr);
+        gap: 42px;
+        align-items: start;
+        background: #fff;
+        border-radius: 14px;
+        padding: 34px;
+        box-shadow: 0 14px 34px rgba(18, 18, 20, 0.09);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+      .about-image-box img {
+        width: 100%;
+        border-radius: 12px;
+        min-height: 420px;
+        object-fit: cover;
+      }
+      .about-text-content {
+        font-size: 16px;
+        color: var(--color-gray);
+        line-height: 1.8;
+      }
+      .about-text-content p {
+        margin-bottom: 14px;
+      }
+      .mvv-card {
+        background: linear-gradient(165deg, rgba(255,255,255,0.1), rgba(255,255,255,0.03));
+        border: 1px solid rgba(255,255,255,0.14);
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+      }
+      .mvv-card p {
+        color: #3f434a;
+        font-size: 15px;
+        line-height: 1.65;
+      }
+      .quem-gallery-section {
+        padding: 0 0 70px;
+      }
+      .quem-gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+      .quem-gallery-grid img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(20, 20, 20, 0.12);
+      }
+      .quem-gallery-grid img.focus-bottom {
+        object-position: center bottom;
+      }
+      @media (max-width: 900px) {
+        .about-wrapper {
+          grid-template-columns: 1fr;
+          padding: 22px;
+          gap: 24px;
+        }
+        .about-hero {
+          padding: 90px 0;
+        }
+        .about-hero .hero-content p {
+          font-size: 17px;
+        }
+        .quem-gallery-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 600px) {
+        .quem-gallery-grid {
+          grid-template-columns: 1fr;
+        }
+        .quem-gallery-grid img {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header" id="header">
+      <div class="container header-container">
+        <a href="/" class="logo-link">
+          <img src="/images/imgi_807_logo-300x92.png" alt="Jacomassi Logo" class="logo">
+        </a>
+        
+        <button class="mobile-menu-toggle" aria-label="Abrir Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li><a href="/" class="nav-link">Início</a></li>
+            <li><a href="/quemsomos.html" class="nav-link active">Quem Somos</a></li>
+            <li class="has-dropdown">
+              <a href="/servicos.html" class="nav-link">Serviços <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></a>
+              <ul class="dropdown">
+                <li><a href="/servicos/chamine-da-caldeira.html">Chaminé da Caldeira</a></li>
+                <li><a href="/servicos/cozedor.html">Cozedor</a></li>
+                <li><a href="/servicos/dutos-de-ar-da-caldeira.html">Dutos de Ar da Caldeira</a></li>
+                <li><a href="/servicos/estruturas-metalicas.html">Estruturas Metálicas</a></li>
+                <li><a href="/servicos/exaustor-da-caldeira.html">Exaustor da Caldeira</a></li>
+                <li><a href="/servicos/moega-de-descarte-de-milho.html">Moega de Descarte de Milho</a></li>
+                <li><a href="/servicos/silos-de-armazenamento-de-milho.html">Silos de Armazenamento de Milho</a></li>
+                <li><a href="/servicos/soldas-especiais.html">Soldas Especiais</a></li>
+                <li><a href="/servicos/tanque-de-flagmassa.html">Tanque de Flagmassa</a></li>
+                <li><a href="/servicos/teto-cobertura-da-caldeira.html">Teto Cobertura da Caldeira</a></li>
+              </ul>
+            </li>
+            <li><a href="/fotos.html" class="nav-link">Fotos</a></li>
+            <li><a href="/relatorio-transparencia.html" class="nav-link">Transparência</a></li>
+            <li><a href="/contato.html" class="nav-link btn-primary">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app">
+      <!-- HERO -->
+      <section class="hero-section about-hero" data-parallax data-parallax-base="8" style="background-image: linear-gradient(rgba(26, 26, 29, 0.8), rgba(26, 26, 29, 0.8)), url('/images/hero-quemsomos.png');">
+        <div class="container text-center">
+          <div class="hero-content">
+            <h1>Empresa líder de tecnologias em manutenções industriais</h1>
+            <p>Caldeiraria, Fabricação, Montagem e Manutenção Industrial, Mão de Obra especializada, Segurança operacional.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- INFRAESTRUTURA -->
+      <section class="infra-section section-padding bg-light text-center">
+        <div class="container">
+          <h2>Infraestrutura completa e com os melhores profissionais</h2>
+          <p class="mt-20 text-gray" style="max-width: 800px; margin: 20px auto 0;">A Jacomassi Serviços é especializada em elaboração de projetos e fabricação, oferecendo soluções completas para atender às necessidades específicas de cada cliente.</p>
+        </div>
+      </section>
+
+      <!-- QUEM SOMOS CONTENT -->
+      <section class="content-section" style="padding: 70px 0;">
+        <div class="container">
+          <h2 class="mb-4 text-center" style="font-size: 36px; margin-bottom: 34px; color: var(--color-dark);">QUEM SOMOS</h2>
+          
+          <div class="about-wrapper">
+            <div class="about-image-box">
+              <img src="/images/equipe-jacomassi.png" alt="Quem Somos Jacomassi" class="rounded-img shadow">
+            </div>
+            <div class="comprehensive-text about-text-content">
+              <p>A Jacomassi Serviços é uma empresa que oferece soluções de elaboração de projetos e fabricação industrial, solda, montagem e pintura de todos equipamentos que fabricamos, além de oferecer peças para a manutenção dos mesmos. Com mais de 15 anos de experiência no mercado, a empresa se destaca pela excelência em atendimento e qualidade de serviços prestados.</p>
+              
+              <p>A Jacomassi Serviços conta com uma equipe de profissionais altamente capacitados e treinados para atender as necessidades dos clientes de forma eficiente e personalizada. Além disso, a empresa utiliza equipamentos e materiais de primeira linha para garantir a qualidade e segurança dos serviços prestados.</p>
+              
+              <p>Entre os serviços oferecidos pela Jacomassi estão prestação de serviços de fabricação de equipamentos industriais, caldeiraria em carbono, e inox. Somos especialistas em corte, dobra e soldas especiais (TIG, MIG e MAG). Além de Caldeiraria, Fabricação, Montagem e Manutenção Industrial, Mão de Obra especializada, Segurança operacional.</p>
+              
+              <p>Com uma ampla carteira de clientes e reconhecida pela qualidade de seus serviços, a Jacomassi Serviços é uma empresa referência em todo o Brasil.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="quem-gallery-section bg-light">
+        <div class="container">
+          <div class="section-heading text-center">
+            <h2>Nossa Estrutura</h2>
+            <p>Imagens da equipe e do ambiente de trabalho da Jacomassi Serviços.</p>
+          </div>
+          <div class="quem-gallery-grid">
+            <img src="/images/quem-somos/f41ba0bf-cf65-48f4-86b4-459de44e7912.jpg" alt="Equipe Jacomassi Serviços" loading="lazy">
+            <img src="/images/quem-somos/0117323e-05bb-4f47-bc3f-90dc6e065d37.jpg" alt="Estrutura interna da Jacomassi" loading="lazy" class="focus-bottom">
+            <img src="/images/quem-somos/9f82f65e-a3c7-423a-b794-24c6d084a6b1.jpg" alt="Equipe Jacomassi em atividade" loading="lazy">
+            <img src="/images/quem-somos/2619f7f6-c146-4325-b00f-5b91cb1fd869.jpg" alt="Ambiente interno da Jacomassi" loading="lazy">
+            <img src="/images/quem-somos/25650da2-4554-4df5-a535-e7d7ebacf6ef.jpg" alt="Área de trabalho da Jacomassi" loading="lazy">
+            <img src="/images/quem-somos/24c397c4-21fd-4dc5-940c-7f5f2a53c719.jpg" alt="Profissionais da Jacomassi" loading="lazy">
+            <img src="/images/quem-somos/99923f41-4fc9-43b2-8f91-876b4bbb6bb3.jpg" alt="Processo industrial da Jacomassi" loading="lazy">
+            <img src="/images/quem-somos/1f75ae45-8b05-42a1-8b95-a0f77b605ca3.jpg" alt="Detalhe da operação na Jacomassi" loading="lazy">
+            <img src="/images/quem-somos/622e9824-ad58-4922-8d1a-4b7c8326ac42.jpg" alt="Área produtiva da Jacomassi" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <!-- MISSÃO, PROPÓSITO E VALORES -->
+      <section class="mvv-section section-padding" style="background-color: var(--color-dark); color: #fff;">
+        <div class="container services-grid">
+          <div class="service-card mvv-card">
+            <h3 style="color: var(--color-primary); margin-bottom: 15px;">Missão</h3>
+            <p>Atender com excelência às demandas dos clientes, pelo desenvolvimento e oferta de produtos e serviços que contribuam para a melhoria da qualidade de vida das pessoas, gerando riqueza de forma sustentável.</p>
+          </div>
+          <div class="service-card mvv-card">
+            <h3 style="color: var(--color-primary); margin-bottom: 15px;">Propósito</h3>
+            <p>Ser empresa de referência, reconhecida como a melhor opção por clientes, colaboradores, comunidade, fornecedores e investidores, pela qualidade de nossos produtos, serviços e relacionamento.</p>
+          </div>
+          <div class="service-card mvv-card">
+            <h3 style="color: var(--color-primary); margin-bottom: 15px;">Valores</h3>
+            <p>Integridade – Comprometimento – Valorização humana – Superação dos resultados – Melhoria contínua – Inovação – Sustentabilidade</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contato">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <img src="/images/imgi_807_logo-300x92.png" alt="Jacomassi Logo" class="footer-logo">
+          <p class="footer-desc">A Jacomassi Serviços é uma empresa referência em soluções de fabricação, montagem e manutenção industrial. Com mais de 15 anos de experiência, oferecemos serviços de qualidade, utilizando equipamentos e materiais de primeira linha. Entre em contato conosco e conheça nossas melhores soluções para o seu negócio.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Serviços</h3>
+          <ul class="footer-links">
+            <li><a href="/servicos/chamine-da-caldeira.html">Chaminé da Caldeira</a></li>
+            <li><a href="/servicos/cozedor.html">Cozedor</a></li>
+            <li><a href="/servicos/dutos-de-ar-da-caldeira.html">Dutos de Ar da Caldeira</a></li>
+            <li><a href="/servicos/estruturas-metalicas.html">Estruturas Metálicas</a></li>
+            <li><a href="/servicos/exaustor-da-caldeira.html">Exaustor da Caldeira</a></li>
+            <li><a href="/servicos/moega-de-descarte-de-milho.html">Moega de Descarte de Milho</a></li>
+            <li><a href="/servicos/silos-de-armazenamento-de-milho.html">Silos de Armazenamento de Milho</a></li>
+            <li><a href="/servicos/soldas-especiais.html">Soldas Especiais</a></li>
+            <li><a href="/servicos/tanque-de-flagmassa.html">Tanque de Flagmassa</a></li>
+            <li><a href="/servicos/teto-cobertura-da-caldeira.html">Teto Cobertura da Caldeira</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Fale Conosco</h3>
+          <address class="footer-contact">
+            <p><strong>Telefone:</strong> 17 99631-7094</p>
+            <p><strong>Telefone:</strong> 17 99613-2302</p>
+            <p><strong>Email:</strong> jacomassi.ltda@hotmail.com</p>
+            <p><strong>Endereço:</strong> Rod. Percy Waldir Semeguini, 590, Ouroeste - SP</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 Jacomassi Serviços. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
+

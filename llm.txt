@@ -1,0 +1,29 @@
+# Jacomassi Serviços
+
+Site institucional da Jacomassi Serviços com foco em fabricação, montagem e manutenção industrial.
+
+## Páginas principais
+- /
+- /servicos.html
+- /fotos.html
+- /quemsomos.html
+- /contato.html
+- /relatorio-transparencia.html
+
+## Serviços
+- /servicos/chamine-da-caldeira.html
+- /servicos/cozedor.html
+- /servicos/dutos-de-ar-da-caldeira.html
+- /servicos/estruturas-metalicas.html
+- /servicos/exaustor-da-caldeira.html
+- /servicos/moega-de-descarte-de-milho.html
+- /servicos/silos-de-armazenamento-de-milho.html
+- /servicos/soldas-especiais.html
+- /servicos/tanque-de-flagmassa.html
+- /servicos/teto-cobertura-da-caldeira.html
+
+## Contato oficial
+- Telefone/WhatsApp: +55 17 99631-7094
+- Telefone/WhatsApp: +55 17 99613-2302
+- E-mail: jacomassi.ltda@hotmail.com
+- Endereço: Rod. Percy Waldir Semeguini, 590, Ouroeste - SP, Brasil
