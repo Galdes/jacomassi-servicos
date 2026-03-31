@@ -20,6 +20,8 @@ export default defineConfig({
         silos: resolve(__dirname, 'servicos/silos-de-armazenamento-de-milho.html'),
         soldas: resolve(__dirname, 'servicos/soldas-especiais.html'),
         tanque: resolve(__dirname, 'servicos/tanque-de-flagmassa.html'),
+        tanqueEtanol: resolve(__dirname, 'servicos/tanque-armazenamento-de-etanol.html'),
+        fabricacaoEquipamentos: resolve(__dirname, 'servicos/fabricacao-de-equipamentos-industriais.html'),
         teto: resolve(__dirname, 'servicos/teto-cobertura-da-caldeira.html')
       }
     }
